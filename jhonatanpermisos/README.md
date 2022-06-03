@@ -1,6 +1,6 @@
 # Jhonatan Permisos
 
-Es un paquete que nos ayudará al manejo de roles y permisos para laravel 7 de manera sencilla.
+Es un paquete que nos ayudará al manejo de roles y permisos para laravel 9 de manera sencilla.
 
 ## Crea tu mismo este paquete:
 
