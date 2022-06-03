@@ -1,0 +1,30 @@
+{
+    "name": "jhonatanfdez/jhonatanpermisos",
+    "description": "Sistema de Roles y Permisos en Laravel 7",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jhonatan Fernandez",
+            "email": "jhonatandavidfernandezr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jhonatanfdez\\JhonatanPermisos\\":"src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "Jhonatanfdez\\JhonatanPermisos\\JhonatanPermisosServiceProvider",
+                "Jhonatanfdez\\JhonatanPermisos\\AuthServiceProvider",
+                "Jhonatanfdez\\JhonatanPermisos\\EventServiceProvider"
+            ]
+        }
+    }
+}
